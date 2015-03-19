@@ -46,11 +46,9 @@ entity module0 is
   port(in0, in1, in2, in3, in4: in std_logic; out0: out std_logic);
 end module0;
 
-architecture RTL of module0 is 
-
-  
+architecture RTL of module0 is   
 begin
-  out <= (in0 and in1 and in2) or (in3 and in4 and in2);
+  out0 <= (in0 and in1 and in2) or (in3 and in4 and in2);
 end RTL;
 
 -- module1

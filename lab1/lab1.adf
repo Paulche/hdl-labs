@@ -3,10 +3,13 @@ Current Flow=Generic
 VCS=0
 version=3
 Current Config=compile
+
 [Configurations]
 compile=lab1
+
 [Library]
 lab1=.\lab1\lab1.lib
+
 [Settings]
 AccessRead=0
 AccessReadWrite=0
@@ -21,23 +24,31 @@ LANGUAGE=VHDL
 REFRESH_FLOW=1
 FLOWTOOLS=NONE
 FAMILY=
+
 [LocalVerilogSets]
 EnableSLP=1
 EnableDebug=0
+
 [LocalVhdlSets]
 CompileWithDebug=0
+
 [$LibMap$]
 lab1=.
 Active_lib=
-[Files]
-/rtl.vhd=-1
-/untitled.awc=-1
-[Files.Data]
-.\src\rtl.vhd=VHDL Source Code
-.\src\untitled.awc=Accelerated Waveform Configuration
+
 [SpecTracer]
 WindowVisible=0
+
 [HierarchyViewer]
-HierarchyInformation=module1_tb|RTL|0  
+HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
+
+[Files]
+/str.vhd=-1
+/untitled.awc=-1
+
+[Files.Data]
+.\src\str.vhd=VHDL Source Code
+.\src\untitled.awc=Accelerated Waveform Configuration
+

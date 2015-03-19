@@ -1,3 +1,95 @@
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.2 [s].
-# Waveform file 'c:/My_Designs/lab/lab1/src/untitled.awc' connected to 'c:/My_Designs/lab/lab1/src/wave.asdb'.
+# Design: Design lab1 already active.
+# 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab1\src\rtl.vhd
+# Compile Entity "inverter2"
+# Compile Architecture "RTL" of Entity "inverter2"
+# Compile Entity "and3"
+# Compile Architecture "RTL" of Entity "and3"
+# Compile Entity "or2"
+# Compile Architecture "RTL" of Entity "or2"
+# Compile Entity "module0"
+# Compile Architecture "RTL" of Entity "module0"
+# Error: COMP96_0019: rtl.vhd : (53, 3): Keyword 'end' expected.
+# Error: COMP96_0016: rtl.vhd : (53, 7): Design unit declaration expected.
+# Compile Entity "module1"
+# Compile Architecture "RTL" of Entity "module1"
+# Compile Entity "module1_tb"
+# Compile Architecture "RTL" of Entity "module1_tb"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# Design: Design lab1 already active.
+# 
+acom -O3 -work lab1 -2002  $dsn/src/rtl.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab1\src\rtl.vhd
+# Compile Entity "inverter2"
+# Compile Architecture "RTL" of Entity "inverter2"
+# Compile Entity "and3"
+# Compile Architecture "RTL" of Entity "and3"
+# Compile Entity "or2"
+# Compile Architecture "RTL" of Entity "or2"
+# Compile Entity "module0"
+# Compile Architecture "RTL" of Entity "module0"
+# Error: COMP96_0019: rtl.vhd : (51, 3): Keyword 'end' expected.
+# Error: COMP96_0016: rtl.vhd : (51, 7): Design unit declaration expected.
+# Compile Entity "module1"
+# Compile Architecture "RTL" of Entity "module1"
+# Compile Entity "module1_tb"
+# Compile Architecture "RTL" of Entity "module1_tb"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -work lab1 -2002  $dsn/src/rtl.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab1\src\rtl.vhd
+# Compile Entity "inverter2"
+# Compile Architecture "RTL" of Entity "inverter2"
+# Compile Entity "and3"
+# Compile Architecture "RTL" of Entity "and3"
+# Compile Entity "or2"
+# Compile Architecture "RTL" of Entity "or2"
+# Compile Entity "module0"
+# Compile Architecture "RTL" of Entity "module0"
+# Compile Entity "module1"
+# Compile Architecture "RTL" of Entity "module1"
+# Compile Entity "module1_tb"
+# Compile Architecture "RTL" of Entity "module1_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+# Design: Design lab1 already active.
+# 
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab1\src\str.vhd
+# Compile Entity "inverter2"
+# Compile Architecture "RTL" of Entity "inverter2"
+# Compile Entity "and3"
+# Compile Architecture "RTL" of Entity "and3"
+# Compile Entity "or2"
+# Compile Architecture "RTL" of Entity "or2"
+# Compile Entity "module0"
+# Compile Architecture "RTL" of Entity "module0"
+# Compile Entity "module1"
+# Compile Architecture "RTL" of Entity "module1"
+# Compile Entity "module1_tb"
+# Compile Architecture "RTL" of Entity "module1_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# Design: Design lab1 already active.
+# 
+acom -O3 -work lab1 -2002  $dsn/src/str.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab1\src\str.vhd
+# Compile Entity "inverter2"
+# Compile Architecture "RTL" of Entity "inverter2"
+# Compile Entity "and3"
+# Compile Architecture "RTL" of Entity "and3"
+# Compile Entity "or2"
+# Compile Architecture "RTL" of Entity "or2"
+# Compile Entity "module0"
+# Compile Architecture "RTL" of Entity "module0"
+# Compile Entity "module1"
+# Compile Architecture "RTL" of Entity "module1"
+# Compile Entity "module1_tb"
+# Compile Architecture "RTL" of Entity "module1_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]

@@ -1,5 +1,5 @@
 WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
-MESSAGE "File: c:\My_Designs\lab\lab1\src\rtl.vhd" 
+MESSAGE "File: c:\My_Designs\lab\lab1\src\str.vhd" 
 MESSAGE "Compile Entity "inverter2"" 
 MESSAGE "Compile Architecture "RTL" of Entity "inverter2"" 
 MESSAGE "Compile Entity "and3"" 
@@ -8,10 +8,8 @@ MESSAGE "Compile Entity "or2""
 MESSAGE "Compile Architecture "RTL" of Entity "or2"" 
 MESSAGE "Compile Entity "module0"" 
 MESSAGE "Compile Architecture "RTL" of Entity "module0"" 
-ERROR COMP96_0019: "Keyword 'end' expected." "c:\My_Designs\lab\lab1\src\rtl.vhd" 53 3
-ERROR COMP96_0016: "Design unit declaration expected." "c:\My_Designs\lab\lab1\src\rtl.vhd" 53 7
 MESSAGE "Compile Entity "module1"" 
 MESSAGE "Compile Architecture "RTL" of Entity "module1"" 
 MESSAGE "Compile Entity "module1_tb"" 
 MESSAGE "Compile Architecture "RTL" of Entity "module1_tb"" 
-FAILURE "Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 
