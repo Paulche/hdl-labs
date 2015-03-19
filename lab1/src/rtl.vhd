@@ -5,10 +5,10 @@ entity device0 is
   port(a, x42, x41, x32, x31, x22, x21, x12, x11, not_e: in std_logic; y4, y3, y2, y1: out std_logic);
 end device0;
 
-architecture RTL of device0 is 
+architecture RTL of device0 is 	
+	signal v0, v1, v2, v3, v4, v5, v6, v7, v8, v9, v10: std_logic;
+
 begin
-  signal s0, s1, s2, v4, v5, v6, v7, v8, v9, v10: std_logic; 
-  
   el0: v0 <= not a;
   el1: v1 <= not v0;
   el2: v2 <= (v1 and x42 and v10);
@@ -25,7 +25,7 @@ begin
   el13: y1 <= (v8 or v9);
   el14: v10 <= not not_e;
 
-end RTL
+end RTL;
 
 library ieee;
 use ieee.std_logic_1164.all;

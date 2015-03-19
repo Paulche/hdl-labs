@@ -1,61 +1,113 @@
-# Design: Design lab1 already active.
-# 
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab1\src\rtl.vhd
-# Compile Entity "inverter2"
-# Compile Architecture "RTL" of Entity "inverter2"
-# Compile Entity "and3"
-# Compile Architecture "RTL" of Entity "and3"
-# Compile Entity "or2"
-# Compile Architecture "RTL" of Entity "or2"
-# Compile Entity "module0"
-# Compile Architecture "RTL" of Entity "module0"
-# Error: COMP96_0019: rtl.vhd : (53, 3): Keyword 'end' expected.
-# Error: COMP96_0016: rtl.vhd : (53, 7): Design unit declaration expected.
-# Compile Entity "module1"
-# Compile Architecture "RTL" of Entity "module1"
-# Compile Entity "module1_tb"
-# Compile Architecture "RTL" of Entity "module1_tb"
-# Compile failure 2 Errors 0 Warnings  Analysis time :  94.0 [ms]
-# Design: Design lab1 already active.
-# 
+# Waveform file 'c:/My_Designs/lab/lab1/src/untitled.awc' connected to 'c:/My_Designs/lab/lab1/src/wave.asdb'.
 acom -O3 -work lab1 -2002  $dsn/src/rtl.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: c:\My_Designs\lab\lab1\src\rtl.vhd
-# Compile Entity "inverter2"
-# Compile Architecture "RTL" of Entity "inverter2"
-# Compile Entity "and3"
-# Compile Architecture "RTL" of Entity "and3"
-# Compile Entity "or2"
-# Compile Architecture "RTL" of Entity "or2"
-# Compile Entity "module0"
-# Compile Architecture "RTL" of Entity "module0"
-# Error: COMP96_0019: rtl.vhd : (51, 3): Keyword 'end' expected.
-# Error: COMP96_0016: rtl.vhd : (51, 7): Design unit declaration expected.
-# Compile Entity "module1"
-# Compile Architecture "RTL" of Entity "module1"
-# Compile Entity "module1_tb"
-# Compile Architecture "RTL" of Entity "module1_tb"
-# Compile failure 2 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Compile Entity "device0"
+# Compile Architecture "RTL" of Entity "device0"
+# Error: COMP96_0019: rtl.vhd : (10, 3): Keyword 'end' expected.
+# Error: COMP96_0016: rtl.vhd : (10, 10): Design unit declaration expected.
+# Compile Entity "device0_tb"
+# Compile Architecture "RTL" of Entity "device0_tb"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.1 [s]
 acom -O3 -work lab1 -2002  $dsn/src/rtl.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
 # File: c:\My_Designs\lab\lab1\src\rtl.vhd
-# Compile Entity "inverter2"
-# Compile Architecture "RTL" of Entity "inverter2"
-# Compile Entity "and3"
-# Compile Architecture "RTL" of Entity "and3"
-# Compile Entity "or2"
-# Compile Architecture "RTL" of Entity "or2"
-# Compile Entity "module0"
-# Compile Architecture "RTL" of Entity "module0"
-# Compile Entity "module1"
-# Compile Architecture "RTL" of Entity "module1"
-# Compile Entity "module1_tb"
-# Compile Architecture "RTL" of Entity "module1_tb"
-# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+# Compile Entity "device0"
+# Compile Architecture "RTL" of Entity "device0"
+# Error: COMP96_0015: rtl.vhd : (30, 1): ';' expected.
+# Error: COMP96_0016: rtl.vhd : (30, 9): Design unit declaration expected.
+# Compile Entity "device0_tb"
+# Error: COMP96_0078: rtl.vhd : (31, 5): Unknown identifier "ieee".
+# Compile Architecture "RTL" of Entity "device0_tb"
+# Compile failure 3 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -work lab1 -2002  $dsn/src/rtl.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab1\src\rtl.vhd
+# Compile Entity "device0"
+# Compile Architecture "RTL" of Entity "device0"
+# Error: COMP96_0078: rtl.vhd : (12, 8): Unknown identifier "v0".
+# Error: COMP96_0133: rtl.vhd : (12, 8): Cannot find object declaration.
+# Error: COMP96_0078: rtl.vhd : (13, 8): Unknown identifier "v1".
+# Error: COMP96_0133: rtl.vhd : (13, 8): Cannot find object declaration.
+# Error: COMP96_0078: rtl.vhd : (13, 18): Unknown identifier "v0".
+# Error: COMP96_0078: rtl.vhd : (14, 8): Unknown identifier "v2".
+# Error: COMP96_0133: rtl.vhd : (14, 8): Cannot find object declaration.
+# Error: COMP96_0078: rtl.vhd : (14, 15): Unknown identifier "v1".
+# Error: COMP96_0078: rtl.vhd : (15, 8): Unknown identifier "v3".
+# Error: COMP96_0133: rtl.vhd : (15, 8): Cannot find object declaration.
+# Error: COMP96_0078: rtl.vhd : (15, 15): Unknown identifier "v0".
+# Error: COMP96_0078: rtl.vhd : (16, 15): Unknown identifier "v2".
+# Error: COMP96_0078: rtl.vhd : (16, 21): Unknown identifier "v3".
+# Error: COMP96_0133: rtl.vhd : (16, 21): Cannot find object declaration.
+# Error: COMP96_0133: rtl.vhd : (16, 15): Cannot find object declaration.
+# Error: COMP96_0077: rtl.vhd : (16, 14): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0078: rtl.vhd : (17, 15): Unknown identifier "v1".
+# Error: COMP96_0133: rtl.vhd : (17, 15): Cannot find object declaration.
+# Error: COMP96_0077: rtl.vhd : (17, 14): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0078: rtl.vhd : (18, 15): Unknown identifier "v0".
+# Error: COMP96_0133: rtl.vhd : (18, 15): Cannot find object declaration.
+# Error: COMP96_0077: rtl.vhd : (18, 14): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0078: rtl.vhd : (20, 15): Unknown identifier "v1".
+# Error: COMP96_0133: rtl.vhd : (20, 15): Cannot find object declaration.
+# Error: COMP96_0077: rtl.vhd : (20, 14): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0078: rtl.vhd : (21, 15): Unknown identifier "v0".
+# Error: COMP96_0133: rtl.vhd : (21, 15): Cannot find object declaration.
+# Error: COMP96_0077: rtl.vhd : (21, 14): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0078: rtl.vhd : (23, 16): Unknown identifier "v1".
+# Error: COMP96_0133: rtl.vhd : (23, 16): Cannot find object declaration.
+# Error: COMP96_0077: rtl.vhd : (23, 15): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Error: COMP96_0078: rtl.vhd : (24, 16): Unknown identifier "v0".
+# Error: COMP96_0133: rtl.vhd : (24, 16): Cannot find object declaration.
+# Error: COMP96_0077: rtl.vhd : (24, 15): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Compile Entity "device0_tb"
+# Compile Architecture "RTL" of Entity "device0_tb"
+# Compile failure 34 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -work lab1 -2002  $dsn/src/rtl.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab1\src\rtl.vhd
+# Compile Entity "device0"
+# Compile Architecture "RTL" of Entity "device0"
+# Error: COMP96_0078: rtl.vhd : (15, 8): Unknown identifier "v3".
+# Error: COMP96_0133: rtl.vhd : (15, 8): Cannot find object declaration.
+# Error: COMP96_0078: rtl.vhd : (16, 21): Unknown identifier "v3".
+# Error: COMP96_0133: rtl.vhd : (16, 21): Cannot find object declaration.
+# Error: COMP96_0077: rtl.vhd : (16, 14): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Compile Entity "device0_tb"
+# Compile Architecture "RTL" of Entity "device0_tb"
+# Compile failure 5 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -work lab1 -2002  $dsn/src/rtl.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab1\src\rtl.vhd
+# Compile Entity "device0"
+# Compile Architecture "RTL" of Entity "device0"
+# Compile Entity "device0_tb"
+# Compile Architecture "RTL" of Entity "device0_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# Adding file c:\My_Designs\lab\lab1\src\untitled.awc ... Done
+# Design: Design lab1 already active.
+# 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
 # Design: Design lab1 already active.
 # 
 # Compile...
@@ -73,23 +125,49 @@ acom -O3 -work lab1 -2002  $dsn/src/rtl.vhd
 # Compile Architecture "RTL" of Entity "module1"
 # Compile Entity "module1_tb"
 # Compile Architecture "RTL" of Entity "module1_tb"
-# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# File: c:\My_Designs\lab\lab1\src\rtl.vhd
+# Compile Entity "device0"
+# Compile Architecture "RTL" of Entity "device0"
+# Compile Entity "device0_tb"
+# Compile Architecture "RTL" of Entity "device0_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
 # Design: Design lab1 already active.
 # 
-acom -O3 -work lab1 -2002  $dsn/src/str.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab1\src\str.vhd
-# Compile Entity "inverter2"
-# Compile Architecture "RTL" of Entity "inverter2"
-# Compile Entity "and3"
-# Compile Architecture "RTL" of Entity "and3"
-# Compile Entity "or2"
-# Compile Architecture "RTL" of Entity "or2"
-# Compile Entity "module0"
-# Compile Architecture "RTL" of Entity "module0"
-# Compile Entity "module1"
-# Compile Architecture "RTL" of Entity "module1"
-# Compile Entity "module1_tb"
-# Compile Architecture "RTL" of Entity "module1_tb"
-# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +r +m+device0_tb device0_tb RTL
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: For upgrade options please visit our University Program page at www.aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6830 kB (elbread=1023 elab2=5657 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\lab\lab1\src\wave.asdb
+#  11:14, 19 марта 2015 г.
+#  Simulation has been initialized
+#  Selected Top-Level: device0_tb (RTL)
+# Waveform file 'c:/My_Designs/lab/lab1/src/untitled.awc' connected to 'c:/My_Designs/lab/lab1/src/wave.asdb'.
+run 6000 ns
+# KERNEL: stopped at time: 6 us
+# 1 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/lab/lab1/src/wave.asdb'.
+# 13 signal(s) traced.
+run 6000 ns
+# KERNEL: stopped at time: 12 us
+run 6000 ns
+# KERNEL: stopped at time: 18 us
+#  Simulation has been stopped
+# Adding file c:\My_Designs\lab\lab1\src\untitled.awc ... Done

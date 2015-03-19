@@ -1,1 +1,1 @@
--w -s "c:\My_Designs\lab\library.cfg"  -j "c:\My_Designs\lab\lab1\projlib.cfg"  -d "c:\My_Designs\lab\lab1\compile"   -work lab1  -O3 -e 100 -2002 "c:\My_Designs\lab\lab1\src\str.vhd"
+-w -s "c:\My_Designs\lab\library.cfg"  -j "c:\My_Designs\lab\lab1\projlib.cfg"  -d "c:\My_Designs\lab\lab1\compile"   -work lab1  -O3 -e 100 -2002 "c:\My_Designs\lab\lab1\src\str.vhd" "c:\My_Designs\lab\lab1\src\rtl.vhd"
