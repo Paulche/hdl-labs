@@ -1,2 +1,3 @@
 .\src\str.vhd
 .\src\rtl.vhd
+.\src\beh.vhd

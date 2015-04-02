@@ -1,10 +1,12 @@
-298
+338
 ~E 1 "./../src/rtl.vhd" 19 and3
 ~A 1 "./../src/str.vhd" 23 RTL
 ~E 1 "./../src/rtl.vhd" 4 device0
-~A 1 "./../src/rtl.vhd" 8 RTL
 ~E 1 "./../src/rtl.vhd" 33 device0_tb
-~A 1 "./../src/rtl.vhd" 36 RTL
+~E 1 "./../src/beh.vhd" 4 device1
+~A 1 "./../src/beh.vhd" 8 BEH
+~E 1 "./../src/beh.vhd" 35 device1_tb
+~A 1 "./../src/beh.vhd" 38 BEH
 ~E 1 "./../src/rtl.vhd" 6 inverter2
 ~A 1 "./../src/str.vhd" 10 RTL
 ~E 1 "./../src/rtl.vhd" 45 module0

@@ -1,4 +1,4 @@
-timestamp=1426752834590
+timestamp=1427959066264
 
 [and3]
 A/rtl=A/RTL 21|./../src/str.vhd|23|1*122607
@@ -12,26 +12,45 @@ Version=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/rtl=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [device0]
-A/rtl=A/RTL 21|./../src/rtl.vhd|8|1*134299
 BinI32/rtl=3*4231
 I=0*16621
 I/rtl=I/RTL 0*20052
 M=11|0|vb4|1426752602949|./../src/rtl.vhd|0*16285*0xf7787a3580fa5a9e52ff780420104fb5710ddf3d|0*16546*0x5eebbfaf24833dd780412b1f91e05209
-M/rtl=M/RTL 21|0|vb4|1426752834548|./../src/rtl.vhd|0*18293*0xdc296e85e52afb36abd474ba701d9fcd3c5154bb|0*18908*0x856b180bf611ec746a6bfcb1befebd18
+NSymbols/device0=40|0|2*0
 R=./../src/rtl.vhd|4
 Version=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/rtl=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [device0_tb]
-A/rtl=A/RTL 21|./../src/rtl.vhd|36|1*137361
 BinI32/rtl=3*4715
 I=0*17035
 I/rtl=I/RTL 0*20157
 M=11|0|vb4|1426752602951|./../src/rtl.vhd|0*16798*0xff666b6d12c494599e9b5dd311a5ebf5a0efac25|0*16957*0x5eebbfaf24833dd780412b1f91e05209
-M/rtl=M/RTL 21|0|vb4|1426752834554|./../src/rtl.vhd|0*17139*0x6c111f038ee99dd20c4138b3dad2ec4ee5393e19|0*18045*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/rtl.vhd|33
 Version=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/rtl=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[device1]
+A/beh=A/BEH 21|./../src/beh.vhd|8|1*151831
+BinI32/beh=3*6843
+I=0*21035
+I/beh=I/BEH 0*25131
+M=11|0|vb4|1426873270577|./../src/beh.vhd|0*20699*0x2b54d26f97b950f37608cebcbbe2d904ceac9e41|0*20960*0x5eebbfaf24833dd780412b1f91e05209
+M/beh=M/BEH 21|0|vb4|1427959065906|./../src/beh.vhd|0*23342*0x415432e195f40b519d9e1275165062420a426d32|0*23790*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/beh.vhd|4
+Version=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/beh=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[device1_tb]
+A/beh=A/BEH 21|./../src/beh.vhd|38|1*154682
+BinI32/beh=3*7270
+I=0*22084
+I/beh=I/BEH 0*25236
+M=11|0|vb4|1426873270627|./../src/beh.vhd|0*21847*0x16e43ae2e6682e75f8a36ab51cfe6386fd3de9cf|0*22006*0x5eebbfaf24833dd780412b1f91e05209
+M/beh=M/BEH 21|0|vb4|1427959065925|./../src/beh.vhd|0*23977*0x4c49ed30158fd55ff6aa74272b618ee4994336da|0*24883*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/beh.vhd|35
+Version=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/beh=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [inverter2]
 A/rtl=A/RTL 21|./../src/str.vhd|10|1*121701
@@ -88,18 +107,21 @@ Version=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/rtl=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [~A]
-ModifyID=298
+ModifyID=338
 Version=73
 
 [~MFT]
-0=175|0lab1.mgf|20157|10316
-1=101|1lab1.mgf|137361|107844
-3=28|3lab1.mgf|4715|2676
+0=209|0lab1.mgf|25236|14061
+1=113|1lab1.mgf|154682|125376
+2=0|2lab1.mgf|0|0
+3=38|3lab1.mgf|7270|4167
 
 [~U]
 and3=11|0*860|
-device0=11|0*15906|
+device0=11|0*15906||0x3
 device0_tb=11|0*16722|
+device1=11|0*20320|
+device1_tb=11|0*21771|
 inverter2=11|0*0|
 module0=11|0*2542|
 module1=11|0*3841|

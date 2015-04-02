@@ -41,7 +41,7 @@ Active_lib=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=device0_tb|RTL|0 
+HierarchyInformation=device1|BEH|0 device1_tb|BEH|0 module1_tb|RTL|0 
 ShowHide=ShowTopLevel
 Selected=
 
@@ -50,10 +50,12 @@ Selected=
 /str.awc=-1
 /rtl.vhd=-1
 /untitled.awc=-1
+/beh.vhd=-1
 
 [Files.Data]
 .\src\str.vhd=VHDL Source Code
 .\src\str.awc=Accelerated Waveform Configuration
 .\src\rtl.vhd=VHDL Source Code
-
 .\src\untitled.awc=Accelerated Waveform Configuration
+.\src\beh.vhd=VHDL Source Code
+

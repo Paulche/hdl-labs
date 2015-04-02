@@ -10,3 +10,5 @@ order=1
 macro=
 [Expand]
 lab1=1
+[Settings]
+Active=lab1
