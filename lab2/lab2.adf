@@ -1,0 +1,37 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=lab2
+[Library]
+lab2=.\lab2\lab2.lib
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+[LocalVhdlSets]
+CompileWithDebug=0
+[SpecTracer]
+WindowVisible=0
+[$LibMap$]
+lab2=.
+Active_lib=
+[Files]
+/ff_d_fal.vhd=-1
+[Files.Data]
+.\src\ff_d_fal.vhd=VHDL Source Code
