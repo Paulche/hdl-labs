@@ -30,13 +30,14 @@ end STR;
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity not1 is
+entity nand2 is
   port( in1: in std_logic;
+        in2: in std_logic;
         out1: out std_logic);
-end not1;
+end nand2;
 
-architecture STR of not1 is 
+architecture STR of nand2 is 
 begin
-  el1: out1 <= not in1;
+  el1: out1 <= in1 nand in2);
 end STR;
 

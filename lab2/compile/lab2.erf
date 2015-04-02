@@ -1,7 +1,9 @@
-WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
-MESSAGE "File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd" 
-MESSAGE "Compile Entity "d_flip_flop"" 
-MESSAGE "Compile Architecture "BEH" of Entity "d_flip_flop"" 
-MESSAGE "Compile Entity "d_flip_flop_tb"" 
-MESSAGE "Compile Architecture "TB" of Entity "d_flip_flop_tb"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 
+MESSAGE "File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd" 
+MESSAGE "Compile Entity "device0"" 
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available." 
+MESSAGE "Compile Architecture "STR" of Entity "device0"" 
+ERROR COMP96_0412: "Actual of mode "out" can not be assigned to formal "q" of mode "inout"" "C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd" 56 40
+ERROR COMP96_0412: "Actual of mode "out" can not be assigned to formal "q" of mode "inout"" "C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd" 57 40
+ERROR COMP96_0412: "Actual of mode "out" can not be assigned to formal "q" of mode "inout"" "C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd" 58 40
+ERROR COMP96_0412: "Actual of mode "out" can not be assigned to formal "q" of mode "inout"" "C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd" 59 40
+FAILURE "Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [s]" 

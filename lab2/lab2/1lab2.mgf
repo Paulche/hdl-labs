@@ -1402,3 +1402,364 @@ V 000043 55 2370          1427963186048 TB
 	(_model . TB 1 -1
 	)
 )
+I 000044 55 1090          1427986586890 STR
+(_unit VHDL (nand4 0 5 (str 0 10 ))
+  (_version v35)
+  (_time 1427986586890 2015.04.02 18:56:26)
+  (_source (\./../src/library.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters )
+  (_entity
+    (_time 1427986586860)
+    (_use )
+  )
+  (_object
+    (_type (_internal ~std_logic_vector{0~to~3}~12 0 6 (_array ~extieee.std_logic_1164.std_logic ((_to (i 0)(i 3))))))
+    (_port (_internal in4 ~std_logic_vector{0~to~3}~12 0 6 (_entity (_in ))))
+    (_port (_internal out1 ~extieee.std_logic_1164.std_logic 0 7 (_entity (_out ))))
+    (_process
+      (el1(_architecture 0 0 12 (_assignment (_simple)(_target(1))(_sensitivity(0(3))(0(2))(0(1))(0(0))))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic_vector (ieee std_logic_1164 std_logic_vector)))
+  )
+  (_model . STR 1 -1
+  )
+)
+I 000044 55 851           1427986587006 STR
+(_unit VHDL (not1 0 19 (str 0 24 ))
+  (_version v35)
+  (_time 1427986587000 2015.04.02 18:56:27)
+  (_source (\./../src/library.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters )
+  (_entity
+    (_time 1427986587004)
+    (_use )
+  )
+  (_object
+    (_port (_internal in1 ~extieee.std_logic_1164.std_logic 0 20 (_entity (_in ))))
+    (_port (_internal out1 ~extieee.std_logic_1164.std_logic 0 21 (_entity (_out ))))
+    (_process
+      (el1(_architecture 0 0 26 (_assignment (_simple)(_target(1))(_sensitivity(0)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+  (_model . STR 1 -1
+  )
+)
+V 000044 55 1082          1427986587037 STR
+(_unit VHDL (nand2 0 33 (str 0 38 ))
+  (_version v35)
+  (_time 1427986587031 2015.04.02 18:56:27)
+  (_source (\./../src/library.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters )
+  (_entity
+    (_time 1427986587035)
+    (_use )
+  )
+  (_object
+    (_type (_internal ~std_logic_vector{0~to~1}~12 0 34 (_array ~extieee.std_logic_1164.std_logic ((_to (i 0)(i 1))))))
+    (_port (_internal in2 ~std_logic_vector{0~to~1}~12 0 34 (_entity (_in ))))
+    (_port (_internal out1 ~extieee.std_logic_1164.std_logic 0 35 (_entity (_out ))))
+    (_process
+      (el1(_architecture 0 0 40 (_assignment (_simple)(_target(1))(_sensitivity(0(1))(0(0))))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic_vector (ieee std_logic_1164 std_logic_vector)))
+  )
+  (_model . STR 1 -1
+  )
+)
+I 000044 55 1105          1427986589468 BEH
+(_unit VHDL (d_flip_flop 0 6 (beh 0 14 ))
+  (_version v35)
+  (_time 1427986589468 2015.04.02 18:56:29)
+  (_source (\./../src/ff_d_fal.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters )
+  (_entity
+    (_time 1427986589422)
+    (_use )
+  )
+  (_object
+    (_port (_internal d ~extieee.std_logic_1164.std_logic 0 7 (_entity (_in ))))
+    (_port (_internal s ~extieee.std_logic_1164.std_logic 0 8 (_entity (_in ))))
+    (_port (_internal r ~extieee.std_logic_1164.std_logic 0 9 (_entity (_in ))))
+    (_port (_internal c ~extieee.std_logic_1164.std_logic 0 10 (_entity (_in ))))
+    (_port (_internal q ~extieee.std_logic_1164.std_logic 0 11 (_entity (_out ))))
+    (_process
+      (el1(_architecture 0 0 16 (_process (_simple)(_target(4))(_sensitivity(3)(2)(1)(0)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+  (_model . BEH 1 -1
+  )
+)
+I 000044 55 1105          1427986610174 BEH
+(_unit VHDL (d_flip_flop 0 6 (beh 0 14 ))
+  (_version v35)
+  (_time 1427986610171 2015.04.02 18:56:50)
+  (_source (\./../src/ff_d_fal.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters )
+  (_entity
+    (_time 1427986589422)
+    (_use )
+  )
+  (_object
+    (_port (_internal d ~extieee.std_logic_1164.std_logic 0 7 (_entity (_in ))))
+    (_port (_internal s ~extieee.std_logic_1164.std_logic 0 8 (_entity (_in ))))
+    (_port (_internal r ~extieee.std_logic_1164.std_logic 0 9 (_entity (_in ))))
+    (_port (_internal c ~extieee.std_logic_1164.std_logic 0 10 (_entity (_in ))))
+    (_port (_internal q ~extieee.std_logic_1164.std_logic 0 11 (_entity (_out ))))
+    (_process
+      (el1(_architecture 0 0 16 (_process (_simple)(_target(4))(_sensitivity(3)(2)(1)(0)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+  (_model . BEH 1 -1
+  )
+)
+I 000043 55 2645          1427986610204 TB
+(_unit VHDL (d_flip_flop_tb 0 35 (tb 0 38 ))
+  (_version v35)
+  (_time 1427986610203 2015.04.02 18:56:50)
+  (_source (\./../src/ff_d_fal.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters )
+  (_entity
+    (_time 1427986610191)
+    (_use )
+  )
+  (_component
+    (d_flip_flop
+      (_object
+        (_port (_internal c ~extieee.std_logic_1164.std_logic 0 40 (_entity (_in ))))
+        (_port (_internal d ~extieee.std_logic_1164.std_logic 0 41 (_entity (_in ))))
+        (_port (_internal s ~extieee.std_logic_1164.std_logic 0 42 (_entity (_in ))))
+        (_port (_internal r ~extieee.std_logic_1164.std_logic 0 43 (_entity (_in ))))
+        (_port (_internal q ~extieee.std_logic_1164.std_logic 0 44 (_entity (_out ))))
+      )
+    )
+  )
+  (_instantiation el1 0 52 (_component d_flip_flop )
+    (_port
+      ((c)(device_in(0)))
+      ((d)(device_in(1)))
+      ((s)(device_in(2)))
+      ((r)(device_in(3)))
+      ((q)(device_out))
+    )
+    (_use (_entity . d_flip_flop)
+      (_port
+        ((d)(d))
+        ((s)(s))
+        ((r)(r))
+        ((c)(c))
+        ((q)(q))
+      )
+    )
+  )
+  (_generate el2 0 53 (_for ~INTEGER~range~0~to~3~13 )
+    (_object
+      (_constant (_internal i ~INTEGER~range~0~to~3~13 0 53 (_architecture )))
+      (_variable (_internal timeout0 ~extSTD.STANDARD.TIME 0 55 (_process 0 ((ns 4611686018427387904)))))
+      (_variable (_internal timeout1 ~extSTD.STANDARD.TIME 0 56 (_process 0 ((ns 4620693217682128896)))))
+      (_process
+        (le1(_architecture 0 0 54 (_process (_wait_for)(_target(0(_index 1)))(_read(0(_index 2))))))
+      )
+      (_subprogram
+      )
+    )
+  )
+  (_object
+    (_type (_internal ~std_logic_vector{0~to~3}~13 0 47 (_array ~extieee.std_logic_1164.std_logic ((_to (i 0)(i 3))))))
+    (_signal (_internal device_in ~std_logic_vector{0~to~3}~13 0 47 (_architecture (_uni (_string \"0000"\)))))
+    (_signal (_internal device_out ~extieee.std_logic_1164.std_logic 0 48 (_architecture (_uni ))))
+    (_type (_internal ~INTEGER~range~0~to~3~13 0 53 (_scalar (_to (i 0)(i 3)))))
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic_vector (ieee std_logic_1164 std_logic_vector)))
+    (_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+    (_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+  )
+  (_model . TB 3 -1
+  )
+)
+V 000044 55 1105          1427988417487 BEH
+(_unit VHDL (d_flip_flop 0 6 (beh 0 14 ))
+  (_version v35)
+  (_time 1427988417484 2015.04.02 19:26:57)
+  (_source (\./../src/ff_d_fal.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters )
+  (_entity
+    (_time 1427986589422)
+    (_use )
+  )
+  (_object
+    (_port (_internal d ~extieee.std_logic_1164.std_logic 0 7 (_entity (_in ))))
+    (_port (_internal s ~extieee.std_logic_1164.std_logic 0 8 (_entity (_in ))))
+    (_port (_internal r ~extieee.std_logic_1164.std_logic 0 9 (_entity (_in ))))
+    (_port (_internal c ~extieee.std_logic_1164.std_logic 0 10 (_entity (_in ))))
+    (_port (_internal q ~extieee.std_logic_1164.std_logic 0 11 (_entity (_out ))))
+    (_process
+      (el1(_architecture 0 0 16 (_process (_simple)(_target(4))(_sensitivity(3)(2)(1)(0)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+  (_model . BEH 1 -1
+  )
+)
+V 000043 55 2645          1427988417521 TB
+(_unit VHDL (d_flip_flop_tb 0 35 (tb 0 38 ))
+  (_version v35)
+  (_time 1427988417515 2015.04.02 19:26:57)
+  (_source (\./../src/ff_d_fal.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters )
+  (_entity
+    (_time 1427986610191)
+    (_use )
+  )
+  (_component
+    (d_flip_flop
+      (_object
+        (_port (_internal c ~extieee.std_logic_1164.std_logic 0 40 (_entity (_in ))))
+        (_port (_internal d ~extieee.std_logic_1164.std_logic 0 41 (_entity (_in ))))
+        (_port (_internal s ~extieee.std_logic_1164.std_logic 0 42 (_entity (_in ))))
+        (_port (_internal r ~extieee.std_logic_1164.std_logic 0 43 (_entity (_in ))))
+        (_port (_internal q ~extieee.std_logic_1164.std_logic 0 44 (_entity (_out ))))
+      )
+    )
+  )
+  (_instantiation el1 0 52 (_component d_flip_flop )
+    (_port
+      ((c)(device_in(0)))
+      ((d)(device_in(1)))
+      ((s)(device_in(2)))
+      ((r)(device_in(3)))
+      ((q)(device_out))
+    )
+    (_use (_entity . d_flip_flop)
+      (_port
+        ((d)(d))
+        ((s)(s))
+        ((r)(r))
+        ((c)(c))
+        ((q)(q))
+      )
+    )
+  )
+  (_generate el2 0 53 (_for ~INTEGER~range~0~to~3~13 )
+    (_object
+      (_constant (_internal i ~INTEGER~range~0~to~3~13 0 53 (_architecture )))
+      (_variable (_internal timeout0 ~extSTD.STANDARD.TIME 0 55 (_process 0 ((ns 4611686018427387904)))))
+      (_variable (_internal timeout1 ~extSTD.STANDARD.TIME 0 56 (_process 0 ((ns 4620693217682128896)))))
+      (_process
+        (le1(_architecture 0 0 54 (_process (_wait_for)(_target(0(_index 1)))(_read(0(_index 2))))))
+      )
+      (_subprogram
+      )
+    )
+  )
+  (_object
+    (_type (_internal ~std_logic_vector{0~to~3}~13 0 47 (_array ~extieee.std_logic_1164.std_logic ((_to (i 0)(i 3))))))
+    (_signal (_internal device_in ~std_logic_vector{0~to~3}~13 0 47 (_architecture (_uni (_string \"0000"\)))))
+    (_signal (_internal device_out ~extieee.std_logic_1164.std_logic 0 48 (_architecture (_uni ))))
+    (_type (_internal ~INTEGER~range~0~to~3~13 0 53 (_scalar (_to (i 0)(i 3)))))
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic_vector (ieee std_logic_1164 std_logic_vector)))
+    (_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+    (_type (_external ~extSTD.STANDARD.TIME (std STANDARD TIME)))
+  )
+  (_model . TB 3 -1
+  )
+)
+V 000044 55 1090          1427988417547 STR
+(_unit VHDL (nand4 0 5 (str 0 10 ))
+  (_version v35)
+  (_time 1427988417546 2015.04.02 19:26:57)
+  (_source (\./../src/library.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters )
+  (_entity
+    (_time 1427986586860)
+    (_use )
+  )
+  (_object
+    (_type (_internal ~std_logic_vector{0~to~3}~12 0 6 (_array ~extieee.std_logic_1164.std_logic ((_to (i 0)(i 3))))))
+    (_port (_internal in4 ~std_logic_vector{0~to~3}~12 0 6 (_entity (_in ))))
+    (_port (_internal out1 ~extieee.std_logic_1164.std_logic 0 7 (_entity (_out ))))
+    (_process
+      (el1(_architecture 0 0 12 (_assignment (_simple)(_target(1))(_sensitivity(0(3))(0(2))(0(1))(0(0))))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic_vector (ieee std_logic_1164 std_logic_vector)))
+  )
+  (_model . STR 1 -1
+  )
+)
+V 000044 55 851           1427988417568 STR
+(_unit VHDL (not1 0 19 (str 0 24 ))
+  (_version v35)
+  (_time 1427988417562 2015.04.02 19:26:57)
+  (_source (\./../src/library.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters )
+  (_entity
+    (_time 1427986587004)
+    (_use )
+  )
+  (_object
+    (_port (_internal in1 ~extieee.std_logic_1164.std_logic 0 20 (_entity (_in ))))
+    (_port (_internal out1 ~extieee.std_logic_1164.std_logic 0 21 (_entity (_out ))))
+    (_process
+      (el1(_architecture 0 0 26 (_assignment (_simple)(_target(1))(_sensitivity(0)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+  (_model . STR 1 -1
+  )
+)

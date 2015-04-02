@@ -1,37 +1,77 @@
-timestamp=1427963186154
+timestamp=1427988417587
 
 [d_flip_flop]
-A/beh=A/BEH 21|./../src/ff_d_fal.vhd|14|1*51696
+A/beh=A/BEH 21|./../src/ff_d_fal.vhd|14|1*62074
+B/beh=3*3260
 BinI32/beh=3*0
+H/beh=0*25899
 I=0*551
 I/beh=I/BEH 0*7148
-M=11|0|vb4|1427961230232|./../src/ff_d_fal.vhd|0*202*0xbc2c81f39ee906e598cfb924c02a6ee208221996|0*467*0x5eebbfaf24833dd780412b1f91e05209
-M/beh=M/BEH 21|0|vb4|1427963186034|./../src/ff_d_fal.vhd|0*656*0x1bc29d93004b18cc407eb570d4f1b6745a91ee57|0*924*0x856b180bf611ec746a6bfcb1befebd18
+M=11|0|v35|1427986589486|./../src/ff_d_fal.vhd|0*17981*0xb9eb877761d40ce617eb8057730f429f872be5bf|0*18248*0x929703d2336e98b4524bf81d4dc709dd
+M/beh=M/BEH 21|0|v35|1427988417516|./../src/ff_d_fal.vhd|0*25980*0x2b008619c4aaac865dfa302ec5ef67b47b9c7381|0*26251*0x929703d2336e98b4524bf81d4dc709dd
 R=./../src/ff_d_fal.vhd|6
+V=0*19223
 Version=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/beh=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [d_flip_flop_tb]
-A/tb=A/TB 21|./../src/ff_d_fal.vhd|38|1*52884
+A/tb=A/TB 21|./../src/ff_d_fal.vhd|38|1*63223
+B/tb=3*3790
 BinI32/tb=3*353
+H/tb=0*26332
 I=0*1475
 I/tb=I/TB 0*7990
-M=11|0|vb4|1427961412645|./../src/ff_d_fal.vhd|0*1212*0x347cbba48a56b436a9111d13e8f86160e9345a2c|0*1388*0x5eebbfaf24833dd780412b1f91e05209
-M/tb=M/TB 21|0|vb4|1427963186047|./../src/ff_d_fal.vhd|0*7257*0x5c9cad02552e78417e580f1efa96abf8aa13b6fb|0*7897*0x856b180bf611ec746a6bfcb1befebd18
+M=11|0|v35|1427986610236|./../src/ff_d_fal.vhd|0*20195*0xfa210057543f01c2fda6d08cfb5f5d10853ac82f|0*20363*0x929703d2336e98b4524bf81d4dc709dd
+M/tb=M/TB 21|0|v35|1427988417532|./../src/ff_d_fal.vhd|0*27999*0xa78d5c3a14271c5c66d7be504d687d43ba5dce5a|0*28711*0x929703d2336e98b4524bf81d4dc709dd
 R=./../src/ff_d_fal.vhd|35
+V=0*23171
 Version=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/tb=9.3.2745.4995  (Windows)|00000003789cd3f5370600015b00b0
 
+[device0]
+M=11|0|v35|1427986875752|./../src/device0.vhd|0*23260*0xac24024856f3d493cb060b6c4cf45f5305a0c4a4|0*23598*0x929703d2336e98b4524bf81d4dc709dd
+R=./../src/device0.vhd|5
+V=0*24389
+
+[nand2]
+A/str=A/STR +21|./../src/library.vhd|38|1*55962
+M=11|0|v35|1427988417583|./../src/library.vhd|0*29428*0x0f60448a4f24598628be7fc0df041e88b693c6d2|0*29641*0x929703d2336e98b4524bf81d4dc709dd
+M/str=M/STR 21|0|v35|1427986587047|./../src/library.vhd|0*16651*0x280643237754556a65c3f5a60e52b2c75ce656b5|0*16810*0x929703d2336e98b4524bf81d4dc709dd
+R=./../src/library.vhd|33
+V=0*30089
+
+[nand4]
+A/str=A/STR 21|./../src/library.vhd|10|1*65911
+B/str=3*4747
+H/str=0*28794
+M=11|0|v35|1427986587002|./../src/library.vhd|0*13441*0x1feb44050cc7cf80df938e51c5fa7a4b778ab6f3|0*13651*0x929703d2336e98b4524bf81d4dc709dd
+M/str=M/STR 21|0|v35|1427988417563|./../src/library.vhd|0*28875*0x0b872db2fa00d4b708dc04642a4d137ae39ac3f2|0*29065*0x929703d2336e98b4524bf81d4dc709dd
+R=./../src/library.vhd|5
+V=0*14497
+
+[not1]
+A/str=A/STR 21|./../src/library.vhd|24|1*67045
+B/str=3*5133
+H/str=0*29139
+M=11|0|v35|1427986587033|./../src/library.vhd|0*15156*0xa21c751be619c23a9be0d66b639e12115f57e307|0*15343*0x929703d2336e98b4524bf81d4dc709dd
+M/str=M/STR 21|0|v35|1427988417579|./../src/library.vhd|0*29220*0xde36b55217cb2f9f64ffbe7f8d320fcbfdecbb08|0*29355*0x929703d2336e98b4524bf81d4dc709dd
+R=./../src/library.vhd|19
+V=0*16032
+
 [~A]
-ModifyID=238
+ModifyID=313
 Version=73
 
 [~MFT]
-0=113|0lab2.mgf|7990|5674
-1=77|1lab2.mgf|52884|51696
-3=1|3lab2.mgf|353|0
+0=205|0lab2.mgf|30089|13599
+1=92|1lab2.mgf|67045|58711
+3=17|3lab2.mgf|5133|2537
 
 [~U]
-d_flip_flop=11|0*0|
-d_flip_flop_tb=11|0*1124|
+d_flip_flop=11|0*18755|0*18952
+d_flip_flop_tb=11|0*22902|0*22985
+device0=11|0*23667|0*23912
+nand2=11|0*29708|0*29858
+nand4=11|0*14063|0*14205
+not1=11|0*15698|0*15824
 

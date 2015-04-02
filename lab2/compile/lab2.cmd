@@ -1,1 +1,1 @@
--w -s "c:\My_Designs\lab\lab2\library.cfg"  -j "c:\My_Designs\lab\lab2\projlib.cfg"  -d "c:\My_Designs\lab\lab2\compile"   -work lab2  -O3 -e 100 -2002 "c:\My_Designs\lab\lab2\src\ff_d_fal.vhd"
+-w -s "C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\library.cfg"  -j "C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\projlib.cfg"  -d "C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\compile\"  -work lab2 -O3 -e 100 "C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd" 

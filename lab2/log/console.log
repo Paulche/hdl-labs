@@ -1,401 +1,497 @@
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Design Explorer: Shortcut to "C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\lab2.aws" design added.
+acom -reorder $DSN/src/device0.vhd
+# Compile with File Reorder...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0015: device0.vhd : (26, 62): ';' expected.
+# Error: COMP96_0018: device0.vhd : (27, 15): Identifier expected.
+# Error: COMP96_0015: device0.vhd : (30, 47): ';' expected.
+# Error: COMP96_0018: device0.vhd : (31, 16): Identifier expected.
+# Error: COMP96_0015: device0.vhd : (34, 62): ';' expected.
+# Error: COMP96_0018: device0.vhd : (35, 16): Identifier expected.
+# Error: COMP96_0019: device0.vhd : (38, 2): Keyword "end" expected.
+# Error: COMP96_0016: device0.vhd : (38, 9): Design unit declaration expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
 # Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Error: COMP96_0055: ff_d_fal.vhd : (34, 10): Cannot find referenced context element.
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0094: ff_d_fal.vhd : (48, 38): Locally static expression is required in the range definition.
-# Error: COMP96_0064: ff_d_fal.vhd : (48, 21): Unknown type.
-# Error: COMP96_0289: ff_d_fal.vhd : (52, 29): Prefix of index must be an array.
-# Error: COMP96_0289: ff_d_fal.vhd : (52, 42): Prefix of index must be an array.
-# Error: COMP96_0289: ff_d_fal.vhd : (52, 55): Prefix of index must be an array.
-# Error: COMP96_0289: ff_d_fal.vhd : (52, 68): Prefix of index must be an array.
-# Error: COMP96_0104: ff_d_fal.vhd : (52, 29): Undefined type of expression.
-# Error: COMP96_0104: ff_d_fal.vhd : (52, 42): Undefined type of expression.
-# Error: COMP96_0104: ff_d_fal.vhd : (52, 55): Undefined type of expression.
-# Error: COMP96_0104: ff_d_fal.vhd : (52, 68): Undefined type of expression.
-# Error: COMP96_0289: ff_d_fal.vhd : (56, 19): Prefix of index must be an array.
-# Compile failure 12 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0015: device0.vhd : (30, 47): ';' expected.
+# Error: COMP96_0018: device0.vhd : (31, 16): Identifier expected.
+# Error: COMP96_0015: device0.vhd : (34, 62): ';' expected.
+# Error: COMP96_0018: device0.vhd : (35, 16): Identifier expected.
+# Error: COMP96_0019: device0.vhd : (38, 2): Keyword "end" expected.
+# Error: COMP96_0016: device0.vhd : (38, 9): Design unit declaration expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
 # Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Error: COMP96_0055: ff_d_fal.vhd : (34, 10): Cannot find referenced context element.
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0094: ff_d_fal.vhd : (48, 38): Locally static expression is required in the range definition.
-# Error: COMP96_0064: ff_d_fal.vhd : (48, 21): Unknown type.
-# Error: COMP96_0289: ff_d_fal.vhd : (52, 29): Prefix of index must be an array.
-# Error: COMP96_0289: ff_d_fal.vhd : (52, 42): Prefix of index must be an array.
-# Error: COMP96_0289: ff_d_fal.vhd : (52, 55): Prefix of index must be an array.
-# Error: COMP96_0289: ff_d_fal.vhd : (52, 68): Prefix of index must be an array.
-# Error: COMP96_0104: ff_d_fal.vhd : (52, 29): Undefined type of expression.
-# Error: COMP96_0104: ff_d_fal.vhd : (52, 42): Undefined type of expression.
-# Error: COMP96_0104: ff_d_fal.vhd : (52, 55): Undefined type of expression.
-# Error: COMP96_0104: ff_d_fal.vhd : (52, 68): Undefined type of expression.
-# Error: COMP96_0289: ff_d_fal.vhd : (56, 19): Prefix of index must be an array.
-# Compile failure 12 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0019: device0.vhd : (38, 2): Keyword "end" expected.
+# Error: COMP96_0016: device0.vhd : (38, 9): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
 # Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0094: ff_d_fal.vhd : (47, 38): Locally static expression is required in the range definition.
-# Error: COMP96_0064: ff_d_fal.vhd : (47, 21): Unknown type.
-# Error: COMP96_0289: ff_d_fal.vhd : (51, 29): Prefix of index must be an array.
-# Error: COMP96_0289: ff_d_fal.vhd : (51, 42): Prefix of index must be an array.
-# Error: COMP96_0289: ff_d_fal.vhd : (51, 55): Prefix of index must be an array.
-# Error: COMP96_0289: ff_d_fal.vhd : (51, 68): Prefix of index must be an array.
-# Error: COMP96_0104: ff_d_fal.vhd : (51, 29): Undefined type of expression.
-# Error: COMP96_0104: ff_d_fal.vhd : (51, 42): Undefined type of expression.
-# Error: COMP96_0104: ff_d_fal.vhd : (51, 55): Undefined type of expression.
-# Error: COMP96_0104: ff_d_fal.vhd : (51, 68): Undefined type of expression.
-# Error: COMP96_0289: ff_d_fal.vhd : (55, 19): Prefix of index must be an array.
-# Compile failure 11 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0015: device0.vhd : (37, 43): ':' expected.
+# Error: COMP96_0018: device0.vhd : (39, 1): Identifier expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
 # Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0019: ff_d_fal.vhd : (47, 3): Keyword 'begin' expected.
-# Error: COMP96_0016: ff_d_fal.vhd : (47, 12): Design unit declaration expected.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  46.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Warning: ELAB1_0026: device0.vhd : (41, 0): There is no default binding for component "nand4".(No entity named "nand4" was found).
+# Error: COMP96_0078: device0.vhd : (41, 31): Unknown identifier "s7".
+# Error: COMP96_0133: device0.vhd : (41, 31): Cannot find object declaration.
+# Error: COMP96_0104: device0.vhd : (41, 21): Undefined type of expression.
+# Error: COMP96_0078: device0.vhd : (42, 34): Unknown identifier "s7".
+# Error: COMP96_0133: device0.vhd : (42, 34): Cannot find object declaration.
+# Error: COMP96_0104: device0.vhd : (42, 21): Undefined type of expression.
+# Error: COMP96_0078: device0.vhd : (43, 34): Unknown identifier "s7".
+# Error: COMP96_0133: device0.vhd : (43, 34): Cannot find object declaration.
+# Error: COMP96_0104: device0.vhd : (43, 21): Undefined type of expression.
+# Error: COMP96_0078: device0.vhd : (44, 34): Unknown identifier "s7".
+# Error: COMP96_0133: device0.vhd : (44, 34): Cannot find object declaration.
+# Error: COMP96_0104: device0.vhd : (44, 21): Undefined type of expression.
+# Error: COMP96_0413: device0.vhd : (51, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (51, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (51, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (52, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (52, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (53, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (53, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0078: device0.vhd : (56, 23): Unknown identifier "s7".
+# Error: COMP96_0133: device0.vhd : (56, 23): Cannot find object declaration.
+# Error: COMP96_0104: device0.vhd : (56, 23): Undefined type of expression.
+# Compile failure 22 Errors 1 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
 # Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0020: ff_d_fal.vhd : (47, 3): Variable can be declared only in a process or subprogram.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Warning: ELAB1_0026: device0.vhd : (41, 0): There is no default binding for component "nand4".(No entity named "nand4" was found).
+# Error: COMP96_0115: device0.vhd : (41, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (42, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (43, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (44, 21): Actual is not a globally static expression.
+# Error: COMP96_0413: device0.vhd : (51, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (51, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (51, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (52, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (52, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (53, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (53, 1): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 11 Errors 1 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
 # Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0018: ff_d_fal.vhd : (47, 21): Identifier expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Warning: ELAB1_0026: device0.vhd : (41, 0): There is no default binding for component "nand4".(No entity named "nand4" was found).
+# Error: COMP96_0078: device0.vhd : (41, 22): Unknown identifier "d1".
+# Error: COMP96_0133: device0.vhd : (41, 22): Cannot find object declaration.
+# Error: COMP96_0289: device0.vhd : (41, 22): Prefix of index must be an array.
+# Error: COMP96_0104: device0.vhd : (41, 21): Undefined type of expression.
+# Error: COMP96_0078: device0.vhd : (42, 22): Unknown identifier "d1".
+# Error: COMP96_0133: device0.vhd : (42, 22): Cannot find object declaration.
+# Error: COMP96_0289: device0.vhd : (42, 22): Prefix of index must be an array.
+# Error: COMP96_0104: device0.vhd : (42, 21): Undefined type of expression.
+# Error: COMP96_0078: device0.vhd : (43, 22): Unknown identifier "d1".
+# Error: COMP96_0133: device0.vhd : (43, 22): Cannot find object declaration.
+# Error: COMP96_0289: device0.vhd : (43, 22): Prefix of index must be an array.
+# Error: COMP96_0104: device0.vhd : (43, 21): Undefined type of expression.
+# Error: COMP96_0078: device0.vhd : (44, 22): Unknown identifier "d1".
+# Error: COMP96_0133: device0.vhd : (44, 22): Cannot find object declaration.
+# Error: COMP96_0289: device0.vhd : (44, 22): Prefix of index must be an array.
+# Error: COMP96_0104: device0.vhd : (44, 21): Undefined type of expression.
+# Error: COMP96_0413: device0.vhd : (51, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (51, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (51, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (52, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (52, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (53, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (53, 1): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 23 Errors 1 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
 # Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0094: ff_d_fal.vhd : (47, 39): Locally static expression is required in the range definition.
-# Error: COMP96_0064: ff_d_fal.vhd : (47, 22): Unknown type.
-# Error: COMP96_0289: ff_d_fal.vhd : (51, 29): Prefix of index must be an array.
-# Error: COMP96_0289: ff_d_fal.vhd : (51, 42): Prefix of index must be an array.
-# Error: COMP96_0289: ff_d_fal.vhd : (51, 55): Prefix of index must be an array.
-# Error: COMP96_0289: ff_d_fal.vhd : (51, 68): Prefix of index must be an array.
-# Error: COMP96_0104: ff_d_fal.vhd : (51, 29): Undefined type of expression.
-# Error: COMP96_0104: ff_d_fal.vhd : (51, 42): Undefined type of expression.
-# Error: COMP96_0104: ff_d_fal.vhd : (51, 55): Undefined type of expression.
-# Error: COMP96_0104: ff_d_fal.vhd : (51, 68): Undefined type of expression.
-# Error: COMP96_0289: ff_d_fal.vhd : (55, 19): Prefix of index must be an array.
-# Compile failure 11 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Warning: ELAB1_0026: device0.vhd : (41, 0): There is no default binding for component "nand4".(No entity named "nand4" was found).
+# Error: COMP96_0115: device0.vhd : (41, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (42, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (43, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (44, 21): Actual is not a globally static expression.
+# Error: COMP96_0413: device0.vhd : (51, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (51, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (51, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (52, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (52, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (53, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (53, 1): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 11 Errors 1 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/library.vhd
 # Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0259: ff_d_fal.vhd : (51, 78): Index value in the reference to the array object is out of the array type range.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0015: ff_d_fal.vhd : (47, 51): ';' expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0367: ff_d_fal.vhd : (47, 54): Improper array length (4). Expected length is 3.
-# Error: COMP96_0259: ff_d_fal.vhd : (51, 78): Index value in the reference to the array object is out of the array type range.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0259: ff_d_fal.vhd : (51, 78): Index value in the reference to the array object is out of the array type range.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0259: ff_d_fal.vhd : (51, 78): Index value in the reference to the array object is out of the array type range.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0015: ff_d_fal.vhd : (56, 32): ';' expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  63.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0015: ff_d_fal.vhd : (56, 34): ';' expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0019: ff_d_fal.vhd : (51, 3): Keyword 'end' expected.
-# Error: COMP96_0016: ff_d_fal.vhd : (51, 12): Design unit declaration expected.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0015: ff_d_fal.vhd : (55, 35): ';' expected.
-# Error: COMP96_0015: ff_d_fal.vhd : (58, 33): ';' expected.
-# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Error: COMP96_0015: ff_d_fal.vhd : (55, 35): ';' expected.
-# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
-# Design: Design lab2 already active.
-# 
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-asim -O5 +access +r +m+d_flip_flop_tb d_flip_flop_tb TB
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Fatal Error: ELAB2_0013 ff_d_fal.vhd (54): Index 4 is out of range (0 to 3) of "device_in".
-# ELAB2: Last instance before error: /d_flip_flop_tb/el2__4
-# KERNEL: Error: E8005 : Kernel process initialization failed.
-# Error: Fatal error occurred during simulation initialization.
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
-asim -O5 +access +r +m+d_flip_flop_tb d_flip_flop_tb TB
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: For upgrade options please visit our University Program page at www.aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5802 kB (elbread=1023 elab2=4629 kernel=149 sdf=0)
-# KERNEL: ASDB file was created in location c:\My_Designs\lab\lab2\src\wave.asdb
-#  11:21, 2 апреля 2015 г.
-#  Simulation has been initialized
-#  Selected Top-Level: d_flip_flop_tb (TB)
-run 100 ns
-# KERNEL: stopped at delta: 5000 at time 0 ps.
-# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
-# Error: Fatal error occurred during simulation.
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
-# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
-run 100 ns
-run 100 ns
-# 5 signal(s) traced.
-# Waveform file 'untitled.awc' connected to 'c:/My_Designs/lab/lab2/src/wave.asdb'.
-endsim
-#  Simulation has been stopped
-asim -O5 +access +r +m+d_flip_flop_tb d_flip_flop_tb TB
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: For upgrade options please visit our University Program page at www.aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5802 kB (elbread=1023 elab2=4629 kernel=149 sdf=0)
-# KERNEL: ASDB file was created in location c:\My_Designs\lab\lab2\src\wave.asdb
-#  11:22, 2 апреля 2015 г.
-#  Simulation has been initialized
-#  Selected Top-Level: d_flip_flop_tb (TB)
-# Waveform file 'untitled.awc' connected to 'c:/My_Designs/lab/lab2/src/wave.asdb'.
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-# 6 signal(s) traced.
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
-# Compile Entity "d_flip_flop"
-# Compile Architecture "BEH" of Entity "d_flip_flop"
-# Compile Entity "d_flip_flop_tb"
-# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\library.vhd
+# Compile Entity "nand4"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "nand4"
+# Compile Entity "not1"
+# Compile Architecture "STR" of Entity "not1"
+# Compile Entity "nand2"
+# Compile Architecture "STR" of Entity "nand2"
 # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-run 100 ns
-# KERNEL: stopped at time: 300 ns
-endsim
-#  Simulation has been stopped
-asim -O5 +access +r +m+d_flip_flop_tb d_flip_flop_tb TB
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# SLP: Started
-# SLP: Elaboration phase ...
-# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
-# SLP: Finished : 0.0 [s]
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: For upgrade options please visit our University Program page at www.aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5803 kB (elbread=1023 elab2=4629 kernel=149 sdf=0)
-# KERNEL: ASDB file was created in location c:\My_Designs\lab\lab2\src\wave.asdb
-#  11:26, 2 апреля 2015 г.
-#  Simulation has been initialized
-#  Selected Top-Level: d_flip_flop_tb (TB)
-# Waveform file 'untitled.awc' connected to 'c:/My_Designs/lab/lab2/src/wave.asdb'.
-run 100 ns
-# KERNEL: stopped at time: 100 ns
-# 1 signal(s) traced.
-# 1 signal(s) traced.
-run 100 ns
-# KERNEL: stopped at time: 200 ns
-#  Simulation has been stopped
+acom $DSN/src/ff_d_fal.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Error: COMP96_0233: Fatal error : INTERNAL COMPILER ERROR
+#   (compiled file "C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\ff_d_fal.vhd" - parsing process)
+# Too many errors - compilation terminated
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/ff_d_fal.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0115: device0.vhd : (41, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (42, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (43, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (44, 21): Actual is not a globally static expression.
+# Error: COMP96_0413: device0.vhd : (51, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (51, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (51, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (52, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (52, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (53, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (53, 1): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0115: device0.vhd : (41, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (42, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (43, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (44, 21): Actual is not a globally static expression.
+# Error: COMP96_0413: device0.vhd : (51, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (51, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (51, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (52, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (52, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (53, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (53, 1): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0115: device0.vhd : (41, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (42, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (43, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (44, 21): Actual is not a globally static expression.
+# Error: COMP96_0413: device0.vhd : (51, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (51, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (51, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (52, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (52, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (53, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (53, 1): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0115: device0.vhd : (41, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (42, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (43, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (44, 21): Actual is not a globally static expression.
+# Error: COMP96_0413: device0.vhd : (51, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (51, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (51, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (52, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (52, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (53, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (53, 1): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0020: device0.vhd : (39, 3): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0015: device0.vhd : (39, 48): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0019: device0.vhd : (42, 2): Keyword "end" expected.
+# Error: COMP96_0016: device0.vhd : (42, 11): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0019: device0.vhd : (42, 2): Keyword "end" expected.
+# Error: COMP96_0016: device0.vhd : (42, 11): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0020: device0.vhd : (39, 3): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0015: device0.vhd : (39, 48): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0020: device0.vhd : (39, 3): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0015: device0.vhd : (39, 48): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0020: device0.vhd : (39, 3): Variable can be declared only in a process or subprogram.
+# Error: COMP96_0015: device0.vhd : (39, 48): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0115: device0.vhd : (42, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (43, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (44, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (45, 21): Actual is not a globally static expression.
+# Error: COMP96_0413: device0.vhd : (52, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (52, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (52, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (53, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (53, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (54, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (54, 1): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0115: device0.vhd : (44, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (45, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (46, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (47, 21): Actual is not a globally static expression.
+# Error: COMP96_0413: device0.vhd : (54, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (54, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (54, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (55, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (55, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (56, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (56, 1): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0115: device0.vhd : (45, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (46, 21): Actual is not a globally static expression.
+# Error: COMP96_0115: device0.vhd : (47, 21): Actual is not a globally static expression.
+# Error: COMP96_0413: device0.vhd : (54, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (54, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (54, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (55, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (55, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (56, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (56, 1): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 10 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0122: device0.vhd : (42, 1): Symbol "p1" has already been declared in this region.
+# Error: COMP96_0078: device0.vhd : (42, 5): Unknown identifier "d2_vector".
+# Error: COMP96_0133: device0.vhd : (42, 5): Cannot find object declaration.
+# Error: COMP96_0122: device0.vhd : (43, 1): Symbol "p1" has already been declared in this region.
+# Error: COMP96_0078: device0.vhd : (43, 5): Unknown identifier "d3_vector".
+# Error: COMP96_0133: device0.vhd : (43, 5): Cannot find object declaration.
+# Error: COMP96_0122: device0.vhd : (44, 1): Symbol "p1" has already been declared in this region.
+# Error: COMP96_0078: device0.vhd : (44, 5): Unknown identifier "d4_vector".
+# Error: COMP96_0133: device0.vhd : (44, 5): Cannot find object declaration.
+# Error: COMP96_0078: device0.vhd : (48, 21): Unknown identifier "d2_vector".
+# Error: COMP96_0133: device0.vhd : (48, 21): Cannot find object declaration.
+# Error: COMP96_0104: device0.vhd : (48, 21): Undefined type of expression.
+# Error: COMP96_0078: device0.vhd : (49, 21): Unknown identifier "d3_vector".
+# Error: COMP96_0133: device0.vhd : (49, 21): Cannot find object declaration.
+# Error: COMP96_0104: device0.vhd : (49, 21): Undefined type of expression.
+# Error: COMP96_0078: device0.vhd : (50, 21): Unknown identifier "d4_vector".
+# Error: COMP96_0133: device0.vhd : (50, 21): Cannot find object declaration.
+# Error: COMP96_0104: device0.vhd : (50, 21): Undefined type of expression.
+# Error: COMP96_0413: device0.vhd : (57, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (57, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (57, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (58, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (58, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (59, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (59, 1): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 25 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0078: device0.vhd : (42, 5): Unknown identifier "d2_vector".
+# Error: COMP96_0133: device0.vhd : (42, 5): Cannot find object declaration.
+# Error: COMP96_0078: device0.vhd : (43, 5): Unknown identifier "d3_vector".
+# Error: COMP96_0133: device0.vhd : (43, 5): Cannot find object declaration.
+# Error: COMP96_0078: device0.vhd : (44, 5): Unknown identifier "d4_vector".
+# Error: COMP96_0133: device0.vhd : (44, 5): Cannot find object declaration.
+# Error: COMP96_0078: device0.vhd : (48, 21): Unknown identifier "d2_vector".
+# Error: COMP96_0133: device0.vhd : (48, 21): Cannot find object declaration.
+# Error: COMP96_0104: device0.vhd : (48, 21): Undefined type of expression.
+# Error: COMP96_0078: device0.vhd : (49, 21): Unknown identifier "d3_vector".
+# Error: COMP96_0133: device0.vhd : (49, 21): Cannot find object declaration.
+# Error: COMP96_0104: device0.vhd : (49, 21): Undefined type of expression.
+# Error: COMP96_0078: device0.vhd : (50, 21): Unknown identifier "d4_vector".
+# Error: COMP96_0133: device0.vhd : (50, 21): Cannot find object declaration.
+# Error: COMP96_0104: device0.vhd : (50, 21): Undefined type of expression.
+# Error: COMP96_0413: device0.vhd : (57, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (57, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (57, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (58, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (58, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (59, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (59, 1): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 22 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0015: device0.vhd : (38, 45): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0019: device0.vhd : (39, 6): Keyword "begin" expected.
+# Error: COMP96_0016: device0.vhd : (39, 15): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0413: device0.vhd : (60, 24): Actual of mode "in" can not be assigned to formal "out1" of mode "out"
+# Error: COMP96_0100: device0.vhd : (60, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (60, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (61, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (61, 1): Too many actuals in the port map aspect in the component instantiation.
+# Error: COMP96_0100: device0.vhd : (62, 22): Actual parameter type in port map does not match the port formal type "in2".
+# Error: COMP96_0525: device0.vhd : (62, 1): Too many actuals in the port map aspect in the component instantiation.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Design: Design lab2 already active.
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\library.vhd
+# Compile Entity "nand4"
+# Compile Architecture "STR" of Entity "nand4"
+# Compile Entity "not1"
+# Compile Architecture "STR" of Entity "not1"
+# Compile Entity "nand2"
+# Compile Architecture "STR" of Entity "nand2"
+# Error: COMP96_0019: library.vhd : (41, 28): Keyword "when" expected.
+# Error: COMP96_0015: library.vhd : (41, 28): ';' expected.
+# Error: COMP96_0019: library.vhd : (41, 28): Keyword "end" expected.
+# Error: COMP96_0016: library.vhd : (41, 29): Design unit declaration expected.
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Compile Architecture "STR" of Entity "device0"
+# Error: ELAB1_0008: device0.vhd : (46, 25): Cannot read output : "q".
+# Error: ELAB1_0008: device0.vhd : (47, 25): Cannot read output : "q".
+# Error: ELAB1_0008: device0.vhd : (48, 25): Cannot read output : "q".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.0 [s]
+# Design: Design lab2 already active.
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0412: device0.vhd : (56, 40): Actual of mode "out" can not be assigned to formal "q" of mode "inout"
+# Error: COMP96_0412: device0.vhd : (57, 40): Actual of mode "out" can not be assigned to formal "q" of mode "inout"
+# Error: COMP96_0412: device0.vhd : (58, 40): Actual of mode "out" can not be assigned to formal "q" of mode "inout"
+# Error: COMP96_0412: device0.vhd : (59, 40): Actual of mode "out" can not be assigned to formal "q" of mode "inout"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [s]
+acom $DSN/src/device0.vhd
+# Compile...
+# File: C:\Documents and Settings\Администратор\Рабочий стол\u290199\lab2\src\device0.vhd
+# Compile Entity "device0"
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage and profiler will not be available.
+# Compile Architecture "STR" of Entity "device0"
+# Error: COMP96_0412: device0.vhd : (56, 40): Actual of mode "out" can not be assigned to formal "q" of mode "inout"
+# Error: COMP96_0412: device0.vhd : (57, 40): Actual of mode "out" can not be assigned to formal "q" of mode "inout"
+# Error: COMP96_0412: device0.vhd : (58, 40): Actual of mode "out" can not be assigned to formal "q" of mode "inout"
+# Error: COMP96_0412: device0.vhd : (59, 40): Actual of mode "out" can not be assigned to formal "q" of mode "inout"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [s]

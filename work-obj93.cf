@@ -1,0 +1,6 @@
+v 3
+file . "lab2/src/library.vhd" "20150402085015.000" "20150402115016.894":
+  entity nand4 at 2( 9) + 0 on 11;
+  architecture str of nand4 at 10( 153) + 0 on 12;
+  entity not1 at 30( 475) + 0 on 15;
+  architecture str of not1 at 38( 602) + 0 on 16;

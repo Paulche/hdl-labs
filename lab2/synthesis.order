@@ -1,1 +1,3 @@
 i<>.\src\ff_d_fal.vhd
+i<>.\src\library.vhd
+i<>.\src\device0.vhd

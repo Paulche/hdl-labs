@@ -1,12 +1,15 @@
 [Project]
 Current Flow=Generic
 VCS=0
-version=3
+version=1
 Current Config=compile
+
 [Configurations]
 compile=lab2
+
 [Library]
 lab2=.\lab2\lab2.lib
+
 [Settings]
 AccessRead=0
 AccessReadWrite=0
@@ -21,21 +24,34 @@ LANGUAGE=VHDL
 REFRESH_FLOW=1
 FLOWTOOLS=NONE
 FAMILY=
+
 [LocalVerilogSets]
 EnableSLP=1
 EnableDebug=0
+
 [LocalVhdlSets]
 CompileWithDebug=0
+
 [SpecTracer]
 WindowVisible=0
+
 [$LibMap$]
 lab2=.
 Active_lib=
-[Files]
-/ff_d_fal.vhd=-1
-[Files.Data]
-.\src\ff_d_fal.vhd=VHDL Source Code
+
 [HierarchyViewer]
-HierarchyInformation=d_flip_flop_tb|TB|0 
+HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
+SortInfo=u
+
+[Files]
+/ff_d_fal.vhd=-1
+/library.vhd=-1
+/device0.vhd=-1
+
+[Files.Data]
+.\src\ff_d_fal.vhd=VHDL Source Code
+.\src\library.vhd=VHDL Source Code
+.\src\device0.vhd=VHDL Source Code
+
