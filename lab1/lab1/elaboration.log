@@ -1,4 +1,4 @@
-Active-HDL 9.3.2745.4995  2015-04-02 10:17:30
+Active-HDL 9.3.2745.4995  2015-04-02 10:22:49
 
 Elaboration top modules:
 Architecture                  BEH(device1)
@@ -25,9 +25,3 @@ ieee                    | Standard IEEE packages library
 lab1                    | None
 std                     | Standard VHDL library
 ------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim -O5 +access +r +m+device1 device1 BEH
-
-
-The performance of simulation is reduced. Version Student Edition

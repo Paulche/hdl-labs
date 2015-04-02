@@ -1,0 +1,7 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd" 
+MESSAGE "Compile Entity "d_flip_flop"" 
+MESSAGE "Compile Architecture "BEH" of Entity "d_flip_flop"" 
+MESSAGE "Compile Entity "d_flip_flop_tb"" 
+MESSAGE "Compile Architecture "TB" of Entity "d_flip_flop_tb"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

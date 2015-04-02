@@ -1,3 +1,401 @@
-# DESIGN: Default Design Language: VHDL
-# DESIGN: Default BDE Language: VHDL
-# DESIGN: Flow Manager: Not Defined
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Error: COMP96_0055: ff_d_fal.vhd : (34, 10): Cannot find referenced context element.
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0094: ff_d_fal.vhd : (48, 38): Locally static expression is required in the range definition.
+# Error: COMP96_0064: ff_d_fal.vhd : (48, 21): Unknown type.
+# Error: COMP96_0289: ff_d_fal.vhd : (52, 29): Prefix of index must be an array.
+# Error: COMP96_0289: ff_d_fal.vhd : (52, 42): Prefix of index must be an array.
+# Error: COMP96_0289: ff_d_fal.vhd : (52, 55): Prefix of index must be an array.
+# Error: COMP96_0289: ff_d_fal.vhd : (52, 68): Prefix of index must be an array.
+# Error: COMP96_0104: ff_d_fal.vhd : (52, 29): Undefined type of expression.
+# Error: COMP96_0104: ff_d_fal.vhd : (52, 42): Undefined type of expression.
+# Error: COMP96_0104: ff_d_fal.vhd : (52, 55): Undefined type of expression.
+# Error: COMP96_0104: ff_d_fal.vhd : (52, 68): Undefined type of expression.
+# Error: COMP96_0289: ff_d_fal.vhd : (56, 19): Prefix of index must be an array.
+# Compile failure 12 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Error: COMP96_0055: ff_d_fal.vhd : (34, 10): Cannot find referenced context element.
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0094: ff_d_fal.vhd : (48, 38): Locally static expression is required in the range definition.
+# Error: COMP96_0064: ff_d_fal.vhd : (48, 21): Unknown type.
+# Error: COMP96_0289: ff_d_fal.vhd : (52, 29): Prefix of index must be an array.
+# Error: COMP96_0289: ff_d_fal.vhd : (52, 42): Prefix of index must be an array.
+# Error: COMP96_0289: ff_d_fal.vhd : (52, 55): Prefix of index must be an array.
+# Error: COMP96_0289: ff_d_fal.vhd : (52, 68): Prefix of index must be an array.
+# Error: COMP96_0104: ff_d_fal.vhd : (52, 29): Undefined type of expression.
+# Error: COMP96_0104: ff_d_fal.vhd : (52, 42): Undefined type of expression.
+# Error: COMP96_0104: ff_d_fal.vhd : (52, 55): Undefined type of expression.
+# Error: COMP96_0104: ff_d_fal.vhd : (52, 68): Undefined type of expression.
+# Error: COMP96_0289: ff_d_fal.vhd : (56, 19): Prefix of index must be an array.
+# Compile failure 12 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0094: ff_d_fal.vhd : (47, 38): Locally static expression is required in the range definition.
+# Error: COMP96_0064: ff_d_fal.vhd : (47, 21): Unknown type.
+# Error: COMP96_0289: ff_d_fal.vhd : (51, 29): Prefix of index must be an array.
+# Error: COMP96_0289: ff_d_fal.vhd : (51, 42): Prefix of index must be an array.
+# Error: COMP96_0289: ff_d_fal.vhd : (51, 55): Prefix of index must be an array.
+# Error: COMP96_0289: ff_d_fal.vhd : (51, 68): Prefix of index must be an array.
+# Error: COMP96_0104: ff_d_fal.vhd : (51, 29): Undefined type of expression.
+# Error: COMP96_0104: ff_d_fal.vhd : (51, 42): Undefined type of expression.
+# Error: COMP96_0104: ff_d_fal.vhd : (51, 55): Undefined type of expression.
+# Error: COMP96_0104: ff_d_fal.vhd : (51, 68): Undefined type of expression.
+# Error: COMP96_0289: ff_d_fal.vhd : (55, 19): Prefix of index must be an array.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0019: ff_d_fal.vhd : (47, 3): Keyword 'begin' expected.
+# Error: COMP96_0016: ff_d_fal.vhd : (47, 12): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  46.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0020: ff_d_fal.vhd : (47, 3): Variable can be declared only in a process or subprogram.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0018: ff_d_fal.vhd : (47, 21): Identifier expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0094: ff_d_fal.vhd : (47, 39): Locally static expression is required in the range definition.
+# Error: COMP96_0064: ff_d_fal.vhd : (47, 22): Unknown type.
+# Error: COMP96_0289: ff_d_fal.vhd : (51, 29): Prefix of index must be an array.
+# Error: COMP96_0289: ff_d_fal.vhd : (51, 42): Prefix of index must be an array.
+# Error: COMP96_0289: ff_d_fal.vhd : (51, 55): Prefix of index must be an array.
+# Error: COMP96_0289: ff_d_fal.vhd : (51, 68): Prefix of index must be an array.
+# Error: COMP96_0104: ff_d_fal.vhd : (51, 29): Undefined type of expression.
+# Error: COMP96_0104: ff_d_fal.vhd : (51, 42): Undefined type of expression.
+# Error: COMP96_0104: ff_d_fal.vhd : (51, 55): Undefined type of expression.
+# Error: COMP96_0104: ff_d_fal.vhd : (51, 68): Undefined type of expression.
+# Error: COMP96_0289: ff_d_fal.vhd : (55, 19): Prefix of index must be an array.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0259: ff_d_fal.vhd : (51, 78): Index value in the reference to the array object is out of the array type range.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0015: ff_d_fal.vhd : (47, 51): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0367: ff_d_fal.vhd : (47, 54): Improper array length (4). Expected length is 3.
+# Error: COMP96_0259: ff_d_fal.vhd : (51, 78): Index value in the reference to the array object is out of the array type range.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0259: ff_d_fal.vhd : (51, 78): Index value in the reference to the array object is out of the array type range.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0259: ff_d_fal.vhd : (51, 78): Index value in the reference to the array object is out of the array type range.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0015: ff_d_fal.vhd : (56, 32): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0015: ff_d_fal.vhd : (56, 34): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0019: ff_d_fal.vhd : (51, 3): Keyword 'end' expected.
+# Error: COMP96_0016: ff_d_fal.vhd : (51, 12): Design unit declaration expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0015: ff_d_fal.vhd : (55, 35): ';' expected.
+# Error: COMP96_0015: ff_d_fal.vhd : (58, 33): ';' expected.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Error: COMP96_0015: ff_d_fal.vhd : (55, 35): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# Design: Design lab2 already active.
+# 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+d_flip_flop_tb d_flip_flop_tb TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Fatal Error: ELAB2_0013 ff_d_fal.vhd (54): Index 4 is out of range (0 to 3) of "device_in".
+# ELAB2: Last instance before error: /d_flip_flop_tb/el2__4
+# KERNEL: Error: E8005 : Kernel process initialization failed.
+# Error: Fatal error occurred during simulation initialization.
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+asim -O5 +access +r +m+d_flip_flop_tb d_flip_flop_tb TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: For upgrade options please visit our University Program page at www.aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5802 kB (elbread=1023 elab2=4629 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\lab\lab2\src\wave.asdb
+#  11:21, 2 апреля 2015 г.
+#  Simulation has been initialized
+#  Selected Top-Level: d_flip_flop_tb (TB)
+run 100 ns
+# KERNEL: stopped at delta: 5000 at time 0 ps.
+# KERNEL: Error: KERNEL_0160 Delta count overflow. Increase the iteration limit using -i argument for asim or the matching entry in simulation preferences.
+# Error: Fatal error occurred during simulation.
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+run 100 ns
+run 100 ns
+# 5 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/lab/lab2/src/wave.asdb'.
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+d_flip_flop_tb d_flip_flop_tb TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: For upgrade options please visit our University Program page at www.aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5802 kB (elbread=1023 elab2=4629 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\lab\lab2\src\wave.asdb
+#  11:22, 2 апреля 2015 г.
+#  Simulation has been initialized
+#  Selected Top-Level: d_flip_flop_tb (TB)
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/lab/lab2/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# 6 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+acom -O3 -work lab2 -2002  $dsn/src/ff_d_fal.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\lab\lab2\src\ff_d_fal.vhd
+# Compile Entity "d_flip_flop"
+# Compile Architecture "BEH" of Entity "d_flip_flop"
+# Compile Entity "d_flip_flop_tb"
+# Compile Architecture "TB" of Entity "d_flip_flop_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+d_flip_flop_tb d_flip_flop_tb TB
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: For upgrade options please visit our University Program page at www.aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5803 kB (elbread=1023 elab2=4629 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\lab\lab2\src\wave.asdb
+#  11:26, 2 апреля 2015 г.
+#  Simulation has been initialized
+#  Selected Top-Level: d_flip_flop_tb (TB)
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/lab/lab2/src/wave.asdb'.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+# 1 signal(s) traced.
+# 1 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+#  Simulation has been stopped

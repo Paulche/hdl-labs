@@ -41,7 +41,7 @@ Active_lib=
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=device1|BEH|0 device1_tb|BEH|0 module1_tb|RTL|0 
+HierarchyInformation=device1|BEH|0   
 ShowHide=ShowTopLevel
 Selected=
 

@@ -35,3 +35,7 @@ Active_lib=
 /ff_d_fal.vhd=-1
 [Files.Data]
 .\src\ff_d_fal.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=d_flip_flop_tb|TB|0 
+ShowHide=ShowTopLevel
+Selected=
